@@ -3,7 +3,7 @@ from fake_useragent import UserAgent
 
 
 class FoshanspiderSpider(scrapy.Spider):
-   name = "foshanspider"
+   name = "scrapy_test"
    allowed_domains = ["www.fsgykg.com"]
    start_urls = ["https://www.fsgykg.com/index/Article/info.html?cate=70&id=3176"]
     
